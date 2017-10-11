@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>COBLUELEI_SECRET MEMO</title>
+	<link type="text/css" rel="stylesheet" href="homepagestyle.css">
+</head>
+
+<body>
+	<audio controls loop>
+		<source src="시간의 신전_Time Temple.mp3" type="audio/mp3">
+		Your browser does not support the audio element.
+	</audio>
+
+	<h1 class="subtitle"></h1>
+	
+	
+	<div class="menu">
+		<ul>
+			<li><a href="2014313504신아름_myhomepage.html">HOME</a></li>
+			<li><a href="myhomepage_text.html">TEXT</a></li>
+			<li><a href="myhomepage_programming.html">PROGRAMMING</a></li>
+			<li><a href="myhomepage_memo.html">SECRET MEMO</a></li>
+		</ul>
+	</div>
+
+	<div class="subcontent">
+	   <h2>Secret Memo</h2>
+	   
+	   <h3>숨겨진 메모 혹은 방명록</h3>
+	   <h5>※비밀스러운 주의사항※ <br>
+	   제출된 메모는 수정이 불가능하며 열람 권한은 저에게만 있습니다.<br>
+	   '숨김' 버튼은 신중히 눌러주세요!</h5>
+	   <hr>
+	   <br>
+
+	   <form>
+	       <fieldset>
+	           <legend>숨겨진 메모 작성</legend>
+
+                   종류 : &nbsp;
+                   <select name="category">
+                        <option value="memo">비밀스러운 메모</option>
+                        <option value="guest">비밀스러운 방명록</option>
+                   </select><br>
+
+
+                   제목 : &nbsp;<input type="text" name="secrettitle"><br>
+                   숨길 내용 : <br>
+                   <textarea name="hide" rows="6" cols="150">
+                   </textarea><br>
+
+            </fieldset><br>
+
+	       <input type="submit" value="숨김" onclick="alert('메모가 무사히 숨겨졌습니다!')">
+	       <input type="reset" value="초기화">
+	   </form>
+	    <hr>
+	</div>
+</body>
+
+</html>
