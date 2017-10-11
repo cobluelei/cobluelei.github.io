@@ -1,0 +1,194 @@
+@font-face {
+    font-family: 'NanumGothic';
+    src: url('NanumGothic.eot');
+    src: url('NanumGothic.woff');
+
+    font-family: 'NanumMyeongjo';
+    src: url('NanumMyeongjo.eot');
+    src: url('NanumMyeongjo.woff');
+
+    font-family: 'NanumSquareR';
+    src: url('NanumSquareR.eot');
+    src: url('NanumSquareR.woff');
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#hometitle, .subtitle {
+    margin-top: 0px;
+    padding-top: 0px;
+
+    width: 100%;
+    height: 250px;
+    background-image: url(language.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 250px;
+
+
+    font-family: "Courier New";
+    font-weight: bold;
+    font-size: 50px;
+    text-shadow: 3px 3px 1px #282828;
+    color: white;
+}
+
+h2 {
+    background-color: black;
+    padding: 5px 10px;
+
+    font-size: 20px;
+    color: #46CCFF;
+}
+
+#thisSemester h2 {
+    font-family: "Courier New";
+}
+
+h3 {
+    background-color: black;
+    padding: 5px 10px;
+
+    font-family: "Courier New";
+    font-size: 17px;
+    color: #FFB432;
+}
+
+
+.subtitle {
+    height: 150px;
+}
+
+.menu ul {
+    list-style: none;
+    text-align: center;
+
+    border-bottom: 3px solid #000000;
+    box-shadow: 0px 8px 10px #000000;
+
+    font-family: "Courier New";
+    font-size: 20px;
+}
+
+.menu li {
+    display: inline;
+    padding: 0 50px;
+
+    background-color: #000000;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #46CCFF;
+}
+
+.menu li a:hover {
+    font-weight: bold;
+    color: #FFB432;
+    text-decoration: underline;
+}
+
+#profile, #thisSemester, .content, .subcontent {
+    width: 100%;
+    padding: 10px 10px;
+    margin: 10px 10px;
+
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+    box-shadow: 5px 8px 10px #000000; 
+}
+
+#profile { 
+    width: 95%;
+    font-family: 'NanumGothic';
+}
+
+#profile h3 {
+    font-family: 'NanumGothic';
+}
+
+#thisSemester {
+    width: 30%;
+    float: left;
+}
+
+#subject {
+    font-family: "Courier New";
+
+    list-style-type: square;
+}
+
+
+#timetable {
+    border-collapse: collapse;
+    empty-cells: show;
+    font-size: 13px;
+}
+
+#timetable td, #timetable th {
+    border: 1px solid black;
+}
+
+.content {
+    width: 62%;
+    height: 530px;
+    margin-left: 10px;
+
+    float: left;
+}
+
+.subcontent {
+    width: 90%;
+    padding: 10px 10px;
+    margin: auto;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.category {
+    opacity: 0.4;
+    box-shadow: 8px 8px 10px #7A6F95;  
+}
+.category:hover {
+    opacity: 1.0;
+    transform: scale(1.2, 1.2);
+}
+
+h4 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.subcontent h5 {
+    font-family: 'NanumSquareR';
+    font-size: 18px;
+    font-weight: normal;
+    font-style: italic;
+    text-align: center;
+}
+.subcontent h2, h3 {
+    font-family: "NanumSquareR";
+}
+
+.subcontent h4 {
+    font-family: 'NanumSquareR';
+    font-size: 40px;
+    font-style: italic;
+}
+
+.subcontent p {
+    font-family: "NanumGothic";
+    text-align: center;
+    font-size: 18px;
+    padding: 13px 13px;
+    line-height: 1.6em;
+}
