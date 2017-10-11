@@ -40,6 +40,11 @@ audio {
     clear: both;
 }
 
+.subtitle {
+    height: 150px;
+}
+
+<!-- Title Style -->
 h2 {
     background-color: black;
     padding: 5px 10px;
@@ -61,11 +66,13 @@ h3 {
     color: #FFB432;
 }
 
-
-.subtitle {
-    height: 150px;
+h4 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
 }
 
+<!-- Menu Style -->
 .menu ul {
     list-style: none;
     text-align: center;
@@ -95,6 +102,7 @@ h3 {
     text-decoration: underline;
 }
 
+<!-- Box Default Style -->
 #profile, #thisSemester, .content, .subcontent {
     width: 100%;
     padding: 10px 10px;
@@ -136,6 +144,7 @@ h3 {
     border: 1px solid black;
 }
 
+<!-- Content Style -->
 .content {
     width: 62%;
     height: 530px;
@@ -148,29 +157,6 @@ h3 {
     width: 90%;
     padding: 10px 10px;
     margin: auto;
-}
-
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-.category {
-    opacity: 0.4;
-    box-shadow: 8px 8px 10px #7A6F95;  
-}
-.category:hover {
-    opacity: 1.0;
-    transform: scale(1.2, 1.2);
-}
-
-h4 {
-    font-size: 30px;
-    font-weight: bold;
-    text-align: center;
 }
 
 .subcontent h5 {
@@ -198,6 +184,26 @@ h4 {
     line-height: 1.6em;
 }
 
+<!-- Image always center-->
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+<!-- Category Style -->
+.category {
+    opacity: 0.4;
+    box-shadow: 8px 8px 10px #7A6F95;  
+}
+.category:hover {
+    opacity: 1.0;
+    transform: scale(1.2, 1.2);
+}
+
+<!-- Form Style -->
 form {
     font-family: "NanumMyeongjo";
     font-size: 15px;
