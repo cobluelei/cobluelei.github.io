@@ -138,7 +138,7 @@
  
  .content {
      width: 62%;
-     height: 530px;
+     height: 70%;
      margin-left: 10px;
  
      float: left;
@@ -146,6 +146,7 @@
  
  .subcontent {
      width: 90%;
+     height: 60%;
      padding: 10px 10px;
      margin: auto;
  }
